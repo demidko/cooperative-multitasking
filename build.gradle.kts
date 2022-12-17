@@ -9,6 +9,7 @@ plugins {
   id("com.palantir.graal") version "0.12.0"
 }
 dependencies {
+  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.6.4")
   implementation("com.github.ajalt.clikt:clikt:3.5.0")
   testImplementation("org.junit.jupiter:junit-jupiter:5.9.0")
   testImplementation("com.google.truth:truth:1.1.3")
